@@ -8,26 +8,6 @@ public class PayC {
 	private int taxVal;
 	
 	
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public void setSalary(int salary) {
-		this.salary = salary;
-	}	
-	
-	public int getSalary() {
-		return salary;
-	}
-	
-	public static double getTax() {
-		return Tax;
-	}
-	
 	public void setTaxVal(int salary) {
 		this.taxVal = (int) (salary*Tax);
 	}
