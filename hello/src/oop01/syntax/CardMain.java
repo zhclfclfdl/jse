@@ -2,6 +2,9 @@ package oop01.syntax;
 
 public class CardMain {
 	public static void main(String[] args) {
+		System.out.println("카드 넓이 : "+CardVO.width
+				 + "\n"+ "카드 높이 : "+CardVO.height);
+		//static이 붙은 변수는 이렇게 바로 접근이 가능
 		
 		CardVO yourCard = new CardVO("heart", 7);
 		CardVO myCard = new CardVO("heart", 3);
@@ -20,7 +23,6 @@ public class CardMain {
 		System.out.println("당신의 카드의 숫자는 " +yourCard.number+" 이고"
 						+ "\n"+"나의 카드의 숫자는 " +myCard.number+ " 이므로"
 						+ "\n"+"당신이 이겼습니다.");
-		System.out.println("나의 카드의 넓이 : "+myCard.width
-						 + "\n"+ "나의 카드의 높이 : "+myCard.height);
+		
 	}
 }
