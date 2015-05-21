@@ -1,7 +1,7 @@
 package oop01.syntax;
 /*
- Data : 2015.5.18
- Author :
+ Data : 2015.5.18..
+ Author :이현석
  Desc : 클래스 선언 Syntax  
  */
 /*

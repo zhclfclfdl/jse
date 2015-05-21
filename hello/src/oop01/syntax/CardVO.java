@@ -1,8 +1,8 @@
 package oop01.syntax;
 
 public class CardVO {
-	String kind; //카드 무늬
-	int number; //카드 숫자
+	public String kind; //카드 무늬
+	public int number; //카드 숫자
 	static int width = 150; //카드의 너비
 	static int height = 150; //카드의 높이
 	
