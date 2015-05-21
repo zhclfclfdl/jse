@@ -9,7 +9,7 @@ public class KaupMain {
 		int idx = 0;
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("키를 입력해 주세요 : ");
+		System.out.print("키를 입력해 주세요. : ");
 		double height1 = scanner.nextDouble();
 		
 		System.out.print("몸무게를 입력해 주세요 : ");
